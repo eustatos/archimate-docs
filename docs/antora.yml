@@ -1,5 +1,5 @@
 # achimate-docs/modules/ROOT/antora.yml
-name: archimate-guide
+name: archimate-docs
 title: Руководство по ArchiMate
 version: '3.2'
 nav:
