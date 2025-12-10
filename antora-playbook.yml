@@ -1,0 +1,21 @@
+# achimate-docs/antora-playbook.yml
+site:
+  title: Руководство по ArchiMate
+  url: https://eustatos.github.io/archimate-guide
+content:
+  sources:
+    - url: . # <-- Точка означает "текущий каталог", т.е. сам репозиторий
+      branches: HEAD
+      start_path:
+asciidoc:
+  attributes:
+    experimental: ''
+    sectnums: ''
+urls:
+  html_extension_style: drop
+output:
+  dir: ./build/site
+ui:
+  bundle:
+    url: https://github.com/antora/antora-ui-default/releases/download/v3.0.0/ui-bundle.zip
+    snapshot: false
