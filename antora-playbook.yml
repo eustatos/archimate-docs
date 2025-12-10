@@ -1,7 +1,7 @@
 # achimate-docs/antora-playbook.yml
 site:
   title: Руководство по ArchiMate
-  url: https://eustatos.github.io/archimate-guide
+  url: https://eustatos.github.io/archimate-docs
 content:
   sources:
     - url: ./ 
