@@ -4,18 +4,23 @@ site:
   url: https://eustatos.github.io/archimate-guide
 content:
   sources:
-    - url: . # <-- Точка означает "текущий каталог", т.е. сам репозиторий
+    - url: ./ 
       branches: HEAD
-      start_path:
+      start_path: docs
 asciidoc:
   attributes:
     experimental: ''
-    sectnums: ''
-urls:
-  html_extension_style: drop
+    sectanchors: ''
+    toc: macro
+    toclevels: 3
+    source-highlighter: highlightjs
+    highlightjs-theme: github
+    icons: font
+    idprefix: ''
+    idseparator: '-'
 output:
   dir: ./build/site
 ui:
   bundle:
-    url: https://github.com/antora/antora-ui-default/releases/download/v3.0.0/ui-bundle.zip
-    snapshot: false
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
